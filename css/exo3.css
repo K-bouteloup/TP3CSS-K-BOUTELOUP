@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    margin: 60px 0;
+}
+
+h2{
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+.exoUnContainer{
+    width: 500px;
+    height: 500px;
+    border: dotted 2px black;
+    position: relative;
+}
+
+.carre{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    content="";
+}
+
+.carreRouge{
+    background: red;
+    left: 250px;
+}
+.carreJaune{background: yellow;}
+.carreBleu{background: blue;
+    top:250px;
+    left:250px;
+}
+.carreVert{background: green;
+    top:250px
+}
+
+.exoUnContainer{
+    position: relative;
+}
+
+.carreViolet{
+    background: violet;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 700px;
+    border-top:solid #359E7B 120px;
+    border-left: solid #359E7B 30px;
+    border-right: solid #359E7B 30px;
+    border-bottom: solid #359E7B 20px;
+    background-color: #359E7B;
+    position: relative;
+}
+p{
+    font-size: 35px;
+    color: #F6F6F6;
+    font-weight: bold;
+    position: absolute;
+    content: "";
+    top: -80px;
+}   
+
+#nom{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #359E7B;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width:100%;
+    font-size: 25px; 
+    box-sizing: border-box;     
+}
+
+
+#sujet{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #359E7B;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width:100%;
+    font-size: 25px; 
+    box-sizing: border-box;
+}
+
+textarea{
+    border-color: #359E7B;
+    height: 300px;
+    border-radius:5px ;
+    width: 100%;
+    font-size: 25px;
+    color: gray;
+}
+
+#envoyer{
+   width: 100%;
+   padding: 15px;
+   border-radius: 5px;
+   margin-top:35px;
+   font-weight: bold;
+   font-size: 20px;
+   border:none;
+}
+
+img{
+    position:absolute;
+    content:"";
+    top:-110px;
+    left:600px;   
+}
